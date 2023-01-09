@@ -2,15 +2,22 @@
 ** EPITECH PROJECT, 2023
 ** Untitled (Workspace)
 ** File description:
-** ex_02
+** ex02
 */
 
-#ifndef EX_02_H_
-#define EX_02_H_
+#ifndef EX02_H_
+#define EX02_H_
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <string.h>
+#include <unistd.h>
+#include <stdbool.h>
+
+/*
+** Cette union permet de manipuler un octet comme un tableau de bits
+** ou comme un octet.
+*/
 
 typedef union bit_fields_s
 {
@@ -27,4 +34,5 @@ typedef union bit_fields_s
     } bits;
 } bit_fields_t;
 
-#endif /* !EX_02_H_ */
+
+#endif /* !EX02_H_ */

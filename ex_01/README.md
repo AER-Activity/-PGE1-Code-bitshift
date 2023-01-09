@@ -1,22 +1,22 @@
 # Ex_01
 
-L'objectif ce cette exercice est d'utiliser l'union de bitshift.
+Dans cette exercice vous allez devoir faire du bitshift.
+
+Pour cela vous allez devoir faire 2 fonction 
 
 ```c
-typedef union bit_fields_s
-{
-    unsigned char byte;
-    struct {
-        unsigned int bit0 : 1;
-        unsigned int bit1 : 1;
-        unsigned int bit2 : 1;
-        unsigned int bit3 : 1;
-        unsigned int bit4 : 1;
-        unsigned int bit5 : 1;
-        unsigned int bit6 : 1;
-        unsigned int bit7 : 1;
-    } bits;
-} bit_fields_t;
+
+void set_bit_at(int *x, int n, bool value) {
+    // TODO
+}
+
+bool get_bit_at(int x, int n) {
+    // TODO
+}
+
+x = Pointeur de la valeur a modifié
+n = n eme bit modifié ou récupéré
+value = booleen representant le 0 ou le 1 d'un bit
 ```
 
-Pour cela vous allez ecrire toute l'alphabet en binaire et vous allez utiliser l'union de bitshift.
+https://en.wikipedia.org/wiki/Bitwise_operations_in_C

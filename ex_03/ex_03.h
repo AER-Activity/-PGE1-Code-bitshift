@@ -11,16 +11,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <string.h>
-
-
-// List chainée pour stocker les caractères et leur code binaire
-typedef struct list_s
-{
-    char character;
-    char *binary;
-    struct list_s *next;
-} list_t;
 
 typedef union bit_fields_s
 {
